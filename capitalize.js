@@ -1,6 +1,6 @@
 function captialize(string){
 
-    return 1;
+    return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
 export{captialize};

@@ -1,5 +1,9 @@
 import{captialize} from './capitalize';
 
-it('works!', () => {
-    expect(captialize()).toBe(1);
+it('First letter is NOT capitalized', () => {
+    expect(captialize('steve')).toBe('Steve');
+} );
+
+it('First letter IS capitalized.', () => {
+    expect(captialize('steve')).toBe('Steve');
 } );
